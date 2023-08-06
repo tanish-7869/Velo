@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* .main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+} */
+
+/* .card{
+	width: 300px;
+	max-width: 500px;
+	height: auto;
+	border: solid;
+} */
+
+/* .info{
+	display: flex;
+	padding: 1rem;
+	grid-template-columns: 6fr 1fr;
+} */
+
+.user{
+	display: flex;
+	flex-direction: row;
+}

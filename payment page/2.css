@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* CSS custom properties (variables) */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --font-outfit: 15px 'Outfit', sans-serif;
+    --shadow: 5px 5px 50px 5px rgba(0,0,0,0.1);
+}
+
+body { 
+    background-color: var(--light-gray);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.qr-code-component {
+    font: var(--font-outfit);
+    background-color: var(--white);
+    box-sizing: border-box;
+    max-width: 320px;
+    align-self: center;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--grayish-blue);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+.qr-code-component .qr-img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.qr-code-component .qr-header {
+    font-weight: 700;
+    font-size: 140%;
+    color: var(--dark-blue);
+}
